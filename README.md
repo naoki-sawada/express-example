@@ -19,3 +19,9 @@ $ npm install
 ```
 $ npm start
 ```
+
+### Example
+
+```
+$ curl -d '{"text":"This is the test!"}' -H "Content-Type: application/json" -X POST http://localhost:3000/message
+```
