@@ -25,3 +25,9 @@ $ npm start
 ```
 $ curl -d '{"text":"This is the test!"}' -H "Content-Type: application/json" -X POST http://localhost:3000/message
 ```
+
+## Docker
+
+```
+$ docker image build -t express-example:create -f ./Dockerfile ./
+```
