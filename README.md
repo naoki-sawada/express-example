@@ -2,7 +2,7 @@
 
 ## About
 
-This is the example project of Express.
+Example code for express.
 
 ## Requirements
 
@@ -29,5 +29,5 @@ $ curl -d '{"text":"This is the test!"}' -H "Content-Type: application/json" -X 
 ## Docker
 
 ```
-$ docker image build -t express-example:create -f ./Dockerfile ./
+$ docker image build -t express-example:latest -f Dockerfile .
 ```
